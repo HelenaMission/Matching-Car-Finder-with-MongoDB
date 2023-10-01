@@ -1,0 +1,165 @@
+.searchInputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.searchTextsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.searchHeader {
+  font-size: 4rem;
+  font-family: "Lato", sans-serif;
+  /* transform: translateY(-6rem); */
+  /* margin-top: -15rem;
+  margin-bottom: 1rem; */
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.searchText {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1.4rem;
+}
+
+.fileUpload {
+  /* border: 1px solid black; */
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.fileUploadContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.uploadBtn {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.uploadBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.uploadedImage {
+  height: 10rem;
+  width: auto;
+  margin-top: 2rem;
+}
+
+.removeBtn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transform: translateY(-13px);
+}
+
+/* .iFrame {
+  z-index: 1;
+} */
+
+.matchedCarsContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.matchedCarImage {
+  height: 100px;
+  width: 130px;
+  border-radius: 1rem;
+}
+
+.matchedCarsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  /* margin-top: 2rem; */
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 200px;
+  width: 220px;
+  border-radius: 20px;
+}
+
+.matchedCarsSection {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: 60%;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.matchedCarsHeader {
+  font-size: 4rem;
+  font-family: "Lato", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.matchedCarsTextContainer p {
+  font-size: 1.2rem;
+  color: rgba(100, 23, 0, 0.8);
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.matchedCarText {
+  font-weight: normal;
+  color: black;
+}
+
+.matchedCarBtn {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  height: 40px;
+  cursor: pointer;
+}
+
+.matchedCarBtn:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.testing {
+  font-size: 500px;
+}
+
+.loadingDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingText {
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}

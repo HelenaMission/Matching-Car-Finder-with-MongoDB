@@ -1,0 +1,33 @@
+.turnerNavbar {
+  padding: 0.5rem 4rem;
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 82rem;
+  top: 0;
+  z-index: 99999;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.turnerLogo {
+  cursor: pointer;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+.links:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+  font-weight: bold;
+}
