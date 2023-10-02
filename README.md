@@ -52,11 +52,19 @@ https://github.com/HelenaMission/Matching-Car-Finder-with-MongoDB/assets/1322387
 
 - Developed a CLI tool in Node.js to seed data into the local MongoDB database and provided the capability to delete data from it.
 - Ensured that the CLI tool was source-controlled and included the seed data, enabling team members to seed data by cloning the repository.
+  
+<br/>
+
+<img width="1421" alt="Screenshot 2023-10-03 at 11 13 47 AM" src="https://github.com/HelenaMission/Matching-Car-Finder-with-MongoDB/assets/132238788/87e6f049-9bf0-43c7-a8ad-cc15950d79de">
+
+<br/>
 
 ### Task 2: Displayed Similar Cars from Your Stock
 
 - Modified the existing car-finder API to retrieve cars matching specified search criteria from the MongoDB instance.
 - Optionally created a frontend page that allowed users to upload cars and view matched cars.
+- 
+<br/>
 
 ## Getting Started
 
@@ -102,5 +110,7 @@ npm run dev
 ```sh
 npm start
 ```
+
+
 
 
