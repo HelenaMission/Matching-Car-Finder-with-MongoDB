@@ -72,7 +72,7 @@ To get started with this enhanced API with MongoDB integration, follow these ste
 
 1. Clone this repository to your local development environment.
 ```sh
-git clone
+git clone https://github.com/HelenaMission/Matching-Car-Finder-with-MongoDB.git
 ```
 
 2. Install MongoDB and MongoDB Compass locally using the provided installation guides.
